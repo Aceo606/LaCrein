@@ -7,6 +7,8 @@
     </div>
 
     <div class="sm:mb-0 self-center">
+        <a class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1" href="{{route("posts.index")}}">Posts</a>
+        <a class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1" href="{{route("contacts")}}">Contact</a>
         @auth("web")
             <a href="{{route("logout")}}" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Logout</a>
         @endauth
